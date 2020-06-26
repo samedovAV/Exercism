@@ -2,9 +2,11 @@
 // This is only a SKELETON file for the 'Resistor Color' exercise. It's been provided as a
 // convenience to get you started writing code faster.
 //
+const COLORS = ["black","brown","red","orange","yellow","green","blue","violet","grey","white"];
 
-export const colorCode = () => {
-  throw new Error("Remove this statement and implement this function");
-};
+const colorCode = (name) => COLORS.indexOf(name);
 
-export const COLORS = undefined;
+export { COLORS, colorCode };
+
+
+
